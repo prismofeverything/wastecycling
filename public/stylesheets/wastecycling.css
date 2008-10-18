@@ -1,0 +1,20 @@
+body 
+{
+  background: #7788bb;
+  color: #111111;
+}
+
+#title
+{
+  background: #111111;
+  color: #eeeeee;
+  font-size: 44px;
+  font-family: verdana, sans-serif;
+  position: relative;
+  width: 500px;
+  height: 100px;
+  padding-left: 40px;
+  margin-left: 200px;
+  padding-top: 40px;
+  margin-top: 200px;
+}
