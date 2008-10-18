@@ -14,4 +14,4 @@ dependency "dm-timestamps", "0.9.6"   # Automatically populate created_at, creat
 dependency "dm-types", "0.9.6"        # Provides additional types, including csv, json, yaml.
 dependency "dm-validations", "0.9.6"  # Validation framework
 
-dependency "plasma", "0.1.3"     # plasma templating language
+dependency "plasma", "0.1.4"     # plasma templating language
