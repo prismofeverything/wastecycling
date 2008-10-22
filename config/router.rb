@@ -26,14 +26,13 @@
 # See merb/specs/merb/router.rb for a fairly complete usage sample.
 
 Merb.logger.info("Compiling routes...")
-Merb::Router.prepare do |r|
+Merb::Router.prepare do
   # RESTful routes
   # resources :posts
   
   # Adds the required routes for merb-auth using the password slice
   slice(:merb_auth_slice_password, :name_prefix => nil, :path_prefix => "")
-
-  r.match("/").to(:controller => "home", :action => "index")
+  match("/").to(:controller => "home", :action => "index")
 
   # This is the default route for /:controller/:action/:id
   # This is fine for most cases.  If you're heavily using resource-based
